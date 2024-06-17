@@ -72,8 +72,8 @@ export default function TextForm(props) {
     <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
     */}
   </div>
-  <button type="submit" className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to LowerCase</button>
-  <button type="submit" className="btn btn-primary mx-2" onClick={handleDownClick}>Convert to UpperCase</button>
+  <button type="submit" className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to UpperCase</button>
+  <button type="submit" className="btn btn-primary mx-2" onClick={handleDownClick}>Convert to LowerCase</button>
   <button type="submit" className="btn btn-primary mx-2" onClick={handleClearClick}>Click Text</button>
   <button type="submit" onClick={reverse} className="btn btn-warning mx-2 my-2">Reverse</button>
   <button type="submit" onClick={handleCapitalize} className="btn btn-warning mx-2 my-2">Handle</button>
